@@ -92,7 +92,13 @@ function recursive(){
 
 recursive();
 
+////correction de la fonction recursive
+///
 
+function randRec($AGE){
+    $rand=rand(0,100);
+
+}
 
 //question 6
 
@@ -134,12 +140,15 @@ somme($tab);
  * @param $tab
  */
 function maxValue($tab){
-    $valeurMax=0;
+    //$valeurMax=0;
+    $valeurMax=null;
+
     foreach ($tab as $key => $value){
         if ($valeurMax<$value){
             $valeurMax=$value;
         }
     }
+    return $valeurMax;
     echo 'la valeur max du tableau est de: '.$valeurMax;
 }
 maxValue($tab);
