@@ -80,7 +80,7 @@ function recursive(){
     echo 'le nbre aleatoire est de: '.$nbre2aleatoire;
 
     if ($nbre2aleatoire>AGE){
-        $nbre2aleatoire = rand(0,100);
+        //$nbre2aleatoire = rand(0,100);
         echo '<br> le nbre aleatoire est encore trop grand<br>';
         recursive();
     }else{
