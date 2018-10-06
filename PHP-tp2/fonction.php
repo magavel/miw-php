@@ -5,6 +5,9 @@
  * Date: 02/10/2018
  * Time: 10:07
  */
+/**
+ * fct qui retourne un tableau
+ */
 function getData(){
 
     $tab=array(
@@ -32,7 +35,6 @@ function getData(){
     return $tab;
 
 }
-//var_dump(getData());
 /**
  * fonction qui retourne le titre de la page
  * @param $page
@@ -49,8 +51,6 @@ function getTitle($page){
         return $tab['404']['title'];
 }
 
-//var_dump(getTitle('test'));
-
 /**
  * fonction qui retourne le contenu de la page
  * @param $page
@@ -64,5 +64,3 @@ function getContent($page){
     else
         return $tab['404']['content'];
 }
-
-//var_dump(getContent('test'));
