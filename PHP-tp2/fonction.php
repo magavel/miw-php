@@ -13,7 +13,7 @@ function getData(){
     $tab=array(
         '404'=> array(
             'title'=>'ERROR 404',
-            'content'=>'page not found'
+            'content'=>'contenu de la page 404 : page not found'
         ),
         'test'=> array(
             'title'=>'Ma page de test',
